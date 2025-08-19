@@ -1,0 +1,101 @@
+course_id,title,category,tags,level,description,rating,num_ratings,enrollments
+101,Introduction to Python,Programming,"python|basics|syntax|variables",Beginner,"Start coding with Python: variables, control flow, functions.",4.6,1450,32000
+102,Python for Data Analysis,Data Science,"python|pandas|numpy|analytics",Intermediate,"Analyze datasets using pandas, NumPy, and practical workflows.",4.7,2100,28000
+103,Data Science Fundamentals,Data Science,"statistics|eda|visualization",Beginner,"Core stats, EDA, and visualization for data science starters.",4.5,1750,25000
+104,Machine Learning Essentials,Data Science,"ml|supervised|unsupervised|scikit-learn",Intermediate,"Build ML pipelines with scikit-learn: regression, classification, clustering.",4.6,1950,26000
+105,Secure Coding Practices,Security,"secure coding|vulnerabilities|best practices",Intermediate,"Learn how to write secure code to prevent vulnerabilities.",4.5,980,14000
+106,Web Development Bootcamp,Programming,"html|css|javascript|frontend",Beginner,"Build responsive websites using HTML, CSS, and vanilla JS.",4.4,2200,45000
+107,Advanced React.js,Programming,"react|hooks|state|spa",Intermediate,"Modern React patterns: hooks, context, routing, performance.",4.6,1600,23000
+108,REST APIs with Flask,Programming,"flask|api|backend|python",Intermediate,"Design and deploy RESTful APIs in Python using Flask.",4.6,1100,15000
+109,SQL & Database Design,Programming,"sql|schema|normalization|postgres",Beginner,"Relational databases, SQL queries, joins, indexing, best practices.",4.5,1900,30000
+110,NoSQL with MongoDB,Programming,"nosql|mongodb|aggregation",Intermediate,"Model documents, optimize queries, and use aggregation pipelines.",4.4,900,12000
+111,Cloud Fundamentals (AWS),Cloud & DevOps,"aws|ec2|s3|iam",Beginner,"AWS basics: compute, storage, security, and deployment patterns.",4.5,1400,21000
+112,DevOps Foundations,Cloud & DevOps,"docker|ci/cd|kubernetes|gitops",Intermediate,"Containers, CI/CD pipelines, and orchestration fundamentals.",4.4,1150,14000
+113,Intro to Cybersecurity,Security,"security|network|threats|defense",Beginner,"Security principles, threat models, and hands-on basics.",4.3,1000,16000
+114,Ethical Hacking Basics,Security,"hacking|pentesting|reconnaissance",Beginner,"Learn the ethics and methods of penetration testing.",4.4,850,14000
+115,Cloud Security Essentials,Security,"cloud|encryption|iam|firewalls",Intermediate,"Protect cloud workloads from threats and misconfigurations.",4.5,900,15000
+116,Natural Language Processing,Data Science,"nlp|text|tfidf|transformers",Advanced,"Text features, TF-IDF, embeddings, and transformer basics.",4.5,950,12000
+117,Data Visualization with Python,Data Science,"matplotlib|seaborn|visualization",Beginner,"Create clear, impactful charts using Python's libraries.",4.6,1300,20000
+118,Feature Engineering for ML,Data Science,"feature engineering|ml|data prep",Intermediate,"Extract and prepare powerful features for ML models.",4.5,850,15000
+119,Cloud Deployment with Docker,Cloud & DevOps,"docker|containers|cloud",Intermediate,"Deploy applications to the cloud using Docker containers.",4.4,900,14000
+120,Kubernetes in Practice,Cloud & DevOps,"kubernetes|containers|devops",Advanced,"Orchestrate containerized applications using Kubernetes.",4.5,1100,15000
+121,Python OOP Mastery,Programming,"python|oop|classes|inheritance",Intermediate,"Master object-oriented programming in Python.",4.6,1200,17000
+122,Concurrency in Python,Programming,"threads|asyncio|parallelism",Advanced,"Implement efficient concurrent programs in Python.",4.4,700,9000
+123,Applied Statistics for Data Science,Data Science,"statistics|hypothesis testing|regression",Intermediate,"Use statistical methods to drive data insights.",4.6,1250,18000
+124,Big Data with Spark,Data Science,"spark|big data|etl",Advanced,"Process large datasets using Apache Spark.",4.5,900,13000
+125,Incident Response Fundamentals,Security,"incident response|forensics|monitoring",Intermediate,"Respond to and investigate security breaches effectively.",4.4,850,12000
+126,Threat Intelligence Analysis,Security,"threat intelligence|malware|analysis",Advanced,"Gather and analyze threat data for proactive defense.",4.5,800,11000
+127,AWS Lambda for Serverless Apps,Cloud & DevOps,"aws lambda|serverless|cloud",Intermediate,"Build and deploy serverless applications with AWS Lambda.",4.6,950,13000
+128,CI/CD with Jenkins,Cloud & DevOps,"jenkins|automation|devops",Intermediate,"Automate builds and deployments with Jenkins pipelines.",4.5,870,12000
+129,Data Wrangling with Pandas,Data Science,"pandas|data cleaning|etl",Beginner,"Clean and transform messy datasets efficiently.",4.6,1400,19000
+130,Time Series Forecasting,Data Science,"timeseries|forecasting|arima",Advanced,"Model forecasting problems with classical and ML methods.",4.4,700,8000
+131,Python Automation Scripts,Programming,"python|automation|scripting",Beginner,"Automate repetitive tasks with Python scripts.",4.5,1600,22000
+132,Web Security Essentials,Security,"web security|xss|sql injection",Intermediate,"Defend web applications from common attacks.",4.4,950,14000
+133,Cloud Networking Basics,Cloud & DevOps,"cloud networking|vpc|subnets",Beginner,"Design and configure secure cloud networks.",4.5,1000,15000
+134,Ansible for Automation,Cloud & DevOps,"ansible|automation|devops",Intermediate,"Automate infrastructure with Ansible playbooks.",4.4,880,13000
+135,Intro to Machine Learning,Data Science,"ml|supervised|unsupervised",Beginner,"Understand ML concepts and build basic models.",4.6,1500,21000
+136,Security Operations Center (SOC) Essentials,Security,"soc|monitoring|incident response",Intermediate,"Operate and manage security monitoring systems.",4.5,900,12000
+137,Python for Web Scraping,Programming,"python|scraping|beautifulsoup",Beginner,"Extract data from websites using Python libraries.",4.5,1450,20000
+138,Cloud Infrastructure as Code,Cloud & DevOps,"terraform|iac|cloud",Intermediate,"Provision infrastructure using Terraform.",4.4,920,14000
+139,Data Ethics and Privacy,Data Science,"ethics|privacy|security",Beginner,"Understand data ethics, governance, and privacy.",4.5,800,12000
+140,Security Auditing Techniques,Security,"security audit|compliance|testing",Advanced,"Conduct effective IT security audits.",4.4,750,10000
+141,Advanced SQL for Data Analysis,Programming,"sql|analytics|joins",Intermediate,"Optimize queries for analytical workloads.",4.6,1150,16000
+142,Applied Deep Learning,Data Science,"deep learning|neural networks",Advanced,"Implement deep learning architectures.",4.5,870,12000
+143,Penetration Testing Tools,Security,"pentest|tools|exploitation",Advanced,"Use popular tools for ethical hacking.",4.5,800,11000
+144,Cloud Cost Optimization,Cloud & DevOps,"cloud cost|budgeting|optimization",Intermediate,"Reduce and manage cloud expenses.",4.4,850,12000
+145,API Security Best Practices,Security,"api security|auth|encryption",Intermediate,"Secure APIs against modern threats.",4.5,870,13000
+146,Data Preprocessing for ML,Data Science,"data cleaning|feature scaling",Intermediate,"Prepare datasets for machine learning models.",4.6,980,14000
+147,Python for Game Development,Programming,"python|pygame|games",Beginner,"Create games using Python and Pygame.",4.4,1000,14000
+148,Cloud Disaster Recovery,Cloud & DevOps,"disaster recovery|backup|cloud",Intermediate,"Implement disaster recovery in the cloud.",4.5,860,12000
+149,IoT Security Fundamentals,Security,"iot|device security|firmware",Beginner,"Protect IoT devices and networks.",4.4,780,11000
+150,AI for Cybersecurity,Security,"ai security|threat detection|ml",Advanced,"Use AI to detect and mitigate threats.",4.6,900,13000
+151,Java Fundamentals,Programming,"java|basics|oop|syntax",Beginner,"Learn the fundamentals of Java programming and OOP concepts.",4.6,1400,30000
+152,Java Spring Boot Essentials,Programming,"java|spring boot|api",Intermediate,"Build REST APIs with Java Spring Boot framework.",4.5,1100,18000
+153,Advanced Java Concurrency,Programming,"java|threads|concurrency",Advanced,"Master multithreading and concurrency in Java.",4.4,800,12000
+154,JavaScript ES6+ Features,Programming,"javascript|es6|modern js",Intermediate,"Use modern JavaScript features for cleaner code.",4.6,1500,22000
+155,Full-Stack JavaScript,Programming,"node.js|express|react",Intermediate,"Build full-stack applications using JS technologies.",4.6,1300,20000
+156,Python Data Structures,Programming,"python|data structures|algorithms",Beginner,"Work with lists, dictionaries, sets, and tuples in Python.",4.5,1700,28000
+157,Java Design Patterns,Programming,"java|design patterns|oop",Advanced,"Implement classic design patterns in Java.",4.4,750,10000
+158,R for Data Science,Data Science,"r|tidyverse|visualization",Beginner,"Analyze data using R programming and tidyverse.",4.5,1200,18000
+159,Statistics with R,Data Science,"r|statistics|hypothesis testing",Intermediate,"Apply statistical methods using R language.",4.4,950,15000
+160,Data Mining Techniques,Data Science,"data mining|clustering|association rules",Intermediate,"Discover patterns and relationships in data.",4.5,870,13000
+161,Deep Learning with PyTorch,Data Science,"deep learning|pytorch|cnn",Advanced,"Implement neural networks with PyTorch.",4.6,920,14000
+162,Data Engineering Essentials,Data Science,"etl|pipelines|data warehouse",Intermediate,"Design and implement scalable data pipelines.",4.5,970,15000
+163,AI Model Deployment,Data Science,"ml deployment|api|docker",Advanced,"Deploy ML models to production environments.",4.5,890,12000
+164,Network Security Basics,Security,"network security|firewalls|vpn",Beginner,"Learn to secure networks from attacks and intrusions.",4.4,1100,16000
+165,Advanced Network Defense,Security,"network defense|ids|ips",Advanced,"Implement intrusion detection and prevention systems.",4.5,850,12000
+166,Social Engineering Awareness,Security,"social engineering|phishing|training",Beginner,"Recognize and prevent social engineering attacks.",4.4,900,14000
+167,Malware Analysis Essentials,Security,"malware|analysis|reverse engineering",Intermediate,"Analyze and understand malicious software.",4.5,870,13000
+168,Cloud Foundations (Azure),Cloud & DevOps,"azure|vm|storage|network",Beginner,"Learn Azure basics and key cloud concepts.",4.5,1250,18000
+169,Azure DevOps Pipelines,Cloud & DevOps,"azure devops|ci/cd|pipelines",Intermediate,"Build and manage Azure CI/CD pipelines.",4.4,980,15000
+170,Google Cloud Platform Basics,Cloud & DevOps,"gcp|compute|storage",Beginner,"Introduction to Google Cloud's core services.",4.5,1150,17000
+171,Terraform for AWS,Cloud & DevOps,"terraform|aws|iac",Intermediate,"Manage AWS infrastructure using Terraform scripts.",4.5,950,14000
+172,Serverless on GCP,Cloud & DevOps,"serverless|gcp functions|cloud",Intermediate,"Build serverless apps with Google Cloud Functions.",4.4,870,13000
+173,Intro to Bash Scripting,Programming,"bash|shell|linux",Beginner,"Automate tasks using Bash scripts in Linux.",4.5,1250,19000
+174,Advanced Bash Automation,Programming,"bash|automation|linux",Advanced,"Write complex Bash scripts for system automation.",4.4,800,12000
+175,Functional Programming in JavaScript,Programming,"javascript|functional|fp",Intermediate,"Apply FP concepts in JavaScript.",4.5,1100,16000
+176,Java Stream API,Programming,"java|streams|functional",Intermediate,"Process collections using Java Stream API.",4.4,950,14000
+177,Python for Data Engineering,Data Science,"python|etl|pipelines",Intermediate,"Build ETL pipelines using Python.",4.5,1050,15000
+178,Advanced SQL Optimization,Data Science,"sql|optimization|indexing",Advanced,"Speed up database queries with advanced techniques.",4.4,900,13000
+179,Data Storytelling,Data Science,"storytelling|visualization|communication",Beginner,"Communicate insights effectively through data stories.",4.6,1300,19000
+180,ML Model Explainability,Data Science,"explainability|shap|lime",Advanced,"Interpret ML model predictions.",4.5,880,12000
+181,Web App Penetration Testing,Security,"pentesting|web apps|owasp",Intermediate,"Test web apps against OWASP Top 10 vulnerabilities.",4.5,970,14000
+182,Advanced Cloud Security,Security,"cloud security|encryption|iam",Advanced,"Secure multi-cloud environments effectively.",4.4,850,12000
+183,Digital Forensics Basics,Security,"digital forensics|evidence|tools",Beginner,"Collect and analyze digital evidence.",4.4,920,13000
+184,Cloud Migration Strategies,Cloud & DevOps,"cloud migration|planning|execution",Intermediate,"Plan and execute cloud migration projects.",4.5,980,14000
+185,Docker Compose for Developers,Cloud & DevOps,"docker compose|devops|containers",Intermediate,"Manage multi-container applications easily.",4.4,890,13000
+186,Monitoring with Prometheus & Grafana,Cloud & DevOps,"prometheus|grafana|monitoring",Intermediate,"Implement observability in cloud systems.",4.5,910,13500
+187,Java Collections Framework,Programming,"java|collections|data structures",Beginner,"Work with Java's collection types effectively.",4.6,1350,21000
+188,TypeScript for JavaScript Developers,Programming,"typescript|javascript|types",Beginner,"Add strong typing to JavaScript using TypeScript.",4.5,1400,22000
+189,Node.js Performance Optimization,Programming,"node.js|performance|optimization",Intermediate,"Improve Node.js app performance.",4.4,900,14000
+190,Asynchronous JavaScript,Programming,"javascript|async|promises",Intermediate,"Handle asynchronous operations with promises and async/await.",4.5,1150,17000
+191,Data Warehousing Concepts,Data Science,"data warehouse|star schema|olap",Intermediate,"Understand warehouse architectures and OLAP queries.",4.4,940,14000
+192,Geospatial Data Analysis,Data Science,"gis|geospatial|mapping",Advanced,"Analyze and visualize geospatial datasets.",4.5,860,12500
+193,AI in Healthcare,Data Science,"ai|healthcare|ml",Advanced,"Apply AI techniques to healthcare data.",4.6,890,13000
+194,Email Security Fundamentals,Security,"email security|spam|encryption",Beginner,"Protect email systems from phishing and spam.",4.4,920,13500
+195,Blockchain Security,Security,"blockchain|smart contracts|security",Advanced,"Secure blockchain applications and smart contracts.",4.5,850,12000
+196,Password Cracking Techniques,Security,"passwords|hashing|bruteforce",Advanced,"Test password strength and cracking methods ethically.",4.4,780,11000
+197,AWS Networking Deep Dive,Cloud & DevOps,"aws networking|vpc|routing",Intermediate,"Master AWS networking concepts and VPC design.",4.5,910,13500
+198,Cloud CI/CD with GitHub Actions,Cloud & DevOps,"github actions|ci/cd|cloud",Intermediate,"Automate cloud deployments using GitHub Actions.",4.4,890,13000
+199,Hybrid Cloud Architectures,Cloud & DevOps,"hybrid cloud|design|devops",Advanced,"Design and manage hybrid cloud solutions.",4.5,870,12500
+200,Intro to Cloud Load Balancing,Cloud & DevOps,"load balancing|cloud|scaling",Beginner,"Distribute workloads efficiently in cloud environments.",4.5,940,14000
