@@ -1,5 +1,3 @@
-# collaborative_model.py
-
 import os
 import joblib
 import numpy as np
@@ -13,21 +11,11 @@ INDEX_PATH = os.path.join(MODEL_DIR, "cf_indices.joblib")
 
 
 def _build_user_item(ratings_df: pd.DataFrame):
-    # """
-    # Build the user-item ratings matrix.
-    # Returns:
-    #   R (DataFrame): users x items ratings matrix (NaN->0)
-    #   user_ids (list), item_ids (list)
-    # """
     R = ratings_df.pivot_table(index="user_id", columns="course_id", values="rating")
     return R.fillna(0.0), list(R.index), list(R.columns)
 
 
 def train_and_save_cf(ratings_csv="data/ratings.csv", n_components=32, random_state=42):
-    """
-    Train a collaborative filtering model using TruncatedSVD (matrix factorization).
-    Saves the model artifacts to disk.
-    """
     os.makedirs(MODEL_DIR, exist_ok=True)
     ratings = pd.read_csv(ratings_csv)
 
@@ -74,9 +62,7 @@ def train_and_save_cf(ratings_csv="data/ratings.csv", n_components=32, random_st
 
 
 def _load_artifacts():
-    """Load saved collaborative filtering artifacts."""
     if not (os.path.exists(MODEL_PATH) and os.path.exists(INDEX_PATH)):
-        # First-time training if missing
         artifact = train_and_save_cf()
         index = joblib.load(INDEX_PATH)
         artifact["user_to_idx"] = index["user_to_idx"]
@@ -92,10 +78,6 @@ def _load_artifacts():
 
 
 def recommend_for_user(user_id, top_n=5, courses_csv="data/courses.csv"):
-    """
-    Recommend courses for a given user based on collaborative filtering.
-    Predict scores = U * S * VT + user_mean, then rank unseen items.
-    """
     art = _load_artifacts()
     U = art["U"]                      # (n_users x k)
     S = art["S"]                      # (k,)
@@ -110,7 +92,7 @@ def recommend_for_user(user_id, top_n=5, courses_csv="data/courses.csv"):
     # Cold start → fallback to popularity
     if user_id not in user_to_idx:
         cold = courses.sort_values(["num_ratings", "rating"], ascending=False).head(top_n)
-        out = cold[["course_id", "title", "category", "level", "rating", "num_ratings", "enrollments"]].copy()
+        out = cold[["course_id", "title", "category", "level", "rating", "num_ratings", "enrollments", "tags"]].copy()
         out["reason"] = "cold_start_popular"
         return out.to_dict(orient="records")
 
